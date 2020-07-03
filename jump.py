@@ -4,11 +4,11 @@ pygame.init()
 win = pygame.display.set_mode((1300,650))  
 pygame.display.set_caption("First Game") 
 
-x = 100
-y = 100
-width = 80
-height = 80
-vel = 5
+x = 25
+y = 25
+width = 20
+height = 20
+vel = 1
 isJump = False 
 jumpCount = 10 
 run = True 
@@ -47,7 +47,7 @@ while run:
     
 
     
-    pygame.draw.rect(win, (250,130,0), (x, y, width, height))  
+    pygame.draw.rect(win, (0,130,250), (x, y, width, height))  
     
     pygame.display.update()
 
