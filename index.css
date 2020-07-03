@@ -57,3 +57,13 @@ h1{
 .line.light {
      border-bottom: 1px solid #626262;
  } 
+
+input {
+     border: 0px;
+     background-color: transparent;
+     font-size: 48pt;
+     width: 600px;
+     font-family: "Helvetica Neue";
+     color: #444;
+     font-weight: 300;
+ }
