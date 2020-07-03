@@ -4,10 +4,10 @@ pygame.init()
 win = pygame.display.set_mode((1300,650))  
 pygame.display.set_caption("First Game") 
 
-x = 50
-y = 50
-width = 40
-height = 40
+x = 100
+y = 100
+width = 80
+height = 80
 vel = 5
 isJump = False 
 jumpCount = 10 
@@ -15,7 +15,7 @@ run = True
 
  
 while run:   
-    pygame.time.delay(20)  
+    pygame.time.delay(1)  
 
     for event in pygame.event.get():   
         if event.type == pygame.QUIT:          
@@ -47,7 +47,7 @@ while run:
     
 
     
-    pygame.draw.rect(win, (0,233,120), (x, y, width, height))  
+    pygame.draw.rect(win, (250,130,0), (x, y, width, height))  
     
     pygame.display.update()
 
